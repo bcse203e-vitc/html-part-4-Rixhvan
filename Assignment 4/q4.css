@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Common box styles */
+  .box {
+    background-color: #ffffff; /* Default content background */
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Box 1: Wide padding + thick border */
+  .box1 {
+    padding: 40px;
+    border: 6px solid #007BFF;
+    background-color: #d0e7ff; /* Light blue for padding area */
+  }
+  
+  /* Box 2: Narrow padding + dashed border */
+  .box2 {
+    padding: 10px;
+    border: 3px dashed #28a745;
+    background-color: #d4f7dc; /* Light green */
+  }
+  
+  /* Box 3: Large margin + no border */
+  .box3 {
+    margin: 60px;
+    padding: 20px;
+    border: none;
+    background-color: #f8d7da; /* Light red */
+  }
+  
